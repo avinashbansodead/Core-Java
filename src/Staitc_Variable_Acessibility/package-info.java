@@ -1,0 +1,1 @@
+package Staitc_Variable_Acessibility;
