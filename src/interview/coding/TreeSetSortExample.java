@@ -1,15 +1,13 @@
 package interview.coding;
 
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.Arrays;
-
 import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class TreeSetSortExample {
-    public static void main(String[] args) {
+public class TreeSetSortExample 
+{
+    public static void main(String[] args) 
+    {
         Integer[] arr = {5, 2, 9, 1, 6};
 
         // TreeSet automatically sorts elements

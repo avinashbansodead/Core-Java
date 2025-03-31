@@ -9,16 +9,23 @@
  */
 
 package interview.coding;
-public class HouseRobbery {
-    public static int rob(int[] nums) {
+public class HouseRobbery 
+{
+	
+    public static int rob(int[] nums) 
+    {
         if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
 
         int maxMoney = 0;  
 
-        for (int i = 0; i < nums.length; i++) { // Loop through each house
+        for (int i = 0; i < nums.length; i++) // Loop through each house
+        	
+        { 
             int sum = 0;
-            for (int j = i; j < nums.length; j += 2) { // Skip adjacent houses
+            
+            for (int j = i; j < nums.length; j += 2) 
+            { // Skip adjacent houses
                 sum += nums[j]; 
             }
             maxMoney = Math.max(maxMoney, sum); // Keep track of max loot
@@ -27,7 +34,9 @@ public class HouseRobbery {
         return maxMoney;
     }
 
-    public static void main(String[] args) {
+    
+    public static void main(String[] args) 
+    {
         int[] nums1 = {1, 2, 3, 1};
         System.out.println("Max Robbed Money: " + rob(nums1)); // Output: 4
 

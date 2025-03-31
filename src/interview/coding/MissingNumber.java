@@ -9,7 +9,8 @@ public class MissingNumber
         int actualSum = 0;
 
         // Sum of elements in the array
-        for (int num : nums) {
+        for (int num : nums) 
+        {
             actualSum += num;
         }
 
@@ -17,7 +18,8 @@ public class MissingNumber
         return expectedSum - actualSum;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int[] nums = {1, 2, 4, 6, 3};  // 5 is missing
         System.out.println(findMissingNumber(nums));  // Output: 5
     }
