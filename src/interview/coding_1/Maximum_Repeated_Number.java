@@ -1,4 +1,4 @@
-package practice;
+package interview.coding_1;
 
 public class Maximum_Repeated_Number {
 public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practice;
+package interview.coding_1;
 
 public class Demo {
 public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practice;
+package interview.coding_1;
 
 public class Max_Profit {
 
