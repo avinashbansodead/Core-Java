@@ -17,11 +17,14 @@ import java.util.Map;
 	        Map<Character, Integer> map = new HashMap<>();
 
 	        // Step 3: Count character occurrences (original logic)
-	        for (char ch : list) {
+	        for (char ch : list) 
+	        {
 	            if (!map.containsKey(ch)) 
 	            {
 	                map.put(ch, 1);
-	            } else {
+	            } 
+	            else 
+	            {
 	                Integer value = map.get(ch);
 	                value++;
 	                map.put(ch, value);
