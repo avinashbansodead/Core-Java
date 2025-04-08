@@ -3,18 +3,19 @@ package interview.coding2;
 public class StringToNumber 
 {
 
-    public static int convertToNumber(String column)
+    public static int convertToNumber(String str)
     {
         int result = 0;
-        for (int i = 0; i < column.length(); i++) 
+        for (int i = 0; i < str.length(); i++) 
         {
-            char ch = column.charAt(i);
+            char ch = str.charAt(i);
             result = result * 26 + (ch - 'A' + 1);
         }
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         System.out.println("A  => " + convertToNumber("A"));    // 1
         System.out.println("Z  => " + convertToNumber("Z"));    // 26
         System.out.println("AA => " + convertToNumber("AA"));   // 27
